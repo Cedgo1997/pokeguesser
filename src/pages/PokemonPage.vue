@@ -5,8 +5,10 @@
 </template>
 
 <script>
-import PokemonOptions from '@/components/PokemonOptions'
-import PokemonPicture from '@/components/PokemonPicture'
+import PokemonOptions from '@/components/PokemonOptions';
+import PokemonPicture from '@/components/PokemonPicture';
+import getPokemonOptions from '@/helpers/getPokemonOptions';
+
 export default {
     components: {
         PokemonOptions,
